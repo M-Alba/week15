@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul {
+	padding: 0;
+}
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.taskSection {
+	max-width: 500px;
+	margin: 0 auto 40px;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px 0 #074b83;
+}
+
+.taskSection__title {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 28px;
+}
+
+.taskSection__subtitle {
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: #074b83;
+}
+
+.taskSection__newTask {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.task {
+	width: 63%;
+	height: 25px;;
+}
+
+.addTask, .deleteTasks {
+	width: 158px;
+	height: 25px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.deleteTasks {
+	display: block;
+	margin-left: auto;
+}
+
+.addTask:hover, .deleteTasks:hover {
+	box-shadow: 0 2px 10px 0 #074b83;
+}
+
+.tasksList__emptyList {
+	list-style-type: none;
+	color: grey;
+}
+
+.none {
+	display: none !important;
+}
+
+.taskItem {
+	height: 30px;
+	padding: 5px;
+	list-style-type: none;
+	vertical-align: middle;
+	border-bottom: 1px solid black;
+}
+
+.taskCheskbox {
+	cursor: pointer;
+}
